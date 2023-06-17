@@ -1,0 +1,70 @@
+.container {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+.jogo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tela {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tela img {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+
+.placar {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reset-button {
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
